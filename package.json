@@ -1,0 +1,28 @@
+{
+  "name": "wepback-react",
+  "version": "1.0.0",
+  "description": "build react project using webpack and babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "webpack": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": "damhee kim",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
